@@ -1,0 +1,97 @@
+.footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    margin-top: 5%;
+}
+.footer .mid{
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+.footer .copyright{
+    width: 100%;
+    height: 10%;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+   
+}
+.footer .copyright span{
+    font-size: 14px;
+}
+.footer .mid img{
+    width: auto;
+    margin: 5% auto;
+}
+.footer .mid .social{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.footer .mid span{
+    font-size: 17px;
+    margin-top: 3%;
+}
+.footer .mid .social .circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0px 3%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .mid .social .circle img{
+    width: 50%;
+    height: 50%;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .footer{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f2f2f2;
+        margin-bottom: auto;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .footer{
+        width: 100%;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f2f2f2;
+        margin-bottom: auto;
+    }
+    .footer .mid{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .footer .mid img{
+        width: 100%;
+    }
+    .footer .copyright span{
+        font-size: 10px;
+    }
+}

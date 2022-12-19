@@ -1,0 +1,163 @@
+
+
+.signupnew {
+    width: 90%;
+    height: 500px;
+    margin: 20px auto;
+    display: flex;
+    border-radius: 10px;
+    font-family: 'Baloo Da 2', cursive;
+}
+.sell{
+    height: 730px !important;
+}
+.sell .sideimg {
+    width: 50%;
+    height: 70% !important;
+    background-image: url("../image/back.jpg");
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+}
+
+.newlogin {
+    flex-direction: row-reverse;
+}
+
+.signupnew .sideimg {
+    width: 50%;
+    height: 100%;
+    background-image: url("../image/back.jpg");
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+}
+.signupnew .seller{
+    background-image: url("../image/seller.jpg");
+}
+
+.sideimg .h1 {
+    font-size: 90px;
+    color: #ffff;
+    font-weight: 900;
+    line-height: 90px;
+    margin-left: 10px;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+.sideimg p {
+    font-size: 25px;
+    color: white;
+    margin-left: 10px;
+    line-height: 0px;
+    margin-top: 50px;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+.sideimg button {
+    width: 40%;
+    padding: 10px;
+    background-color: #ffff;
+    color: black;
+    border: none;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-left: 10px;
+    font-family: 'Baloo Da 2', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sideimg button a{
+    text-decoration: none;
+    color: #333;
+}
+
+.signupnew .form {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form h1 {
+    margin: 0px;
+    font-size: 50px;
+    align-self: flex-start;
+    color: rgb(53, 52, 52);
+    font-family: 'Baloo Da 2', cursive;
+}
+
+.form .main-form {
+    width: 80%;
+    height: 90%;
+}
+
+.main-form .name {
+    width: 40%;
+    float: left;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+.main-form .name-2 {
+    margin-left: 20px;
+}
+
+.main-form input {
+    display: block;
+    padding: 5px 10px;
+    width: 90%;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    font-size: 15px;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+.main-form label {
+    display: block;
+    width: 100%;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+.main-form label span {
+    margin-top: 0px;
+    font-size: 20px;
+    display: inline-block;
+    width: 100%;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+.main-form button {
+    width: 95%;
+    border: none;
+    background-color: #d3b951;
+    font-size: 20px;
+    padding: 5px 10px;
+    color: #ffff;
+    border-radius: 10px;
+    font-family: 'Baloo Da 2', cursive;
+    margin-top: 5%;
+}
+
+.main-form .or {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+   
+}
+
+@media(max-width: 320px) {
+   
+}

@@ -1,0 +1,138 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    
+}
+.mobile{
+    display: none;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.nav .top{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav .top .box{
+    width: 30%;
+    height: 100%;
+}
+.nav .top .logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+.nav .top .logo img{
+   height: 90%;
+   margin: 0px 5%;
+}
+.nav .top .search{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: none;
+}
+.nav .top .search .input{
+    width: 100%;
+    height: 70%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+}
+.nav .top .search .input input{
+    width: 85%;
+    height: 100%;
+    padding: 0% 3%;
+    border: none;
+    border-radius: 10px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.nav .top .search .input button{
+    width: 15%;
+    height: 100%;
+    padding: 2%;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+.nav .top .search .input button img{
+    width: 30px;
+    height: 30px;
+    filter: gray;
+    -webkit-filter: contrast(160%);; 
+    filter: grayscale(1); 
+}
+.nav .top .end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.end button{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #d3b951;
+    background-color: #d3b951;
+    color: white;
+    padding: 7px 10px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.nav .top .end span .india{
+    height: 18px;
+    margin: 0px 10px;
+    margin-right: 5px;
+}
+.nav .top .end span{
+    font-size: 18px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+}
+.nav .top .end span .down{
+    width: 15px;
+    height: 15px;
+}
+.nav .top .end .a{
+    width: 30px;
+    height: 30px;
+    margin: 0px 20px;
+}
+
+.nav .bottom{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav .bottom .middle{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav .bottom .middle a{
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+}

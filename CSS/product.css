@@ -1,0 +1,148 @@
+.main-wrap{
+    width: 90%;
+    height: 700px;
+    margin: 2% auto;
+    display: flex;
+}
+
+.main-wrap .img{
+    width: 50%;
+    height: 100%;
+   
+}
+
+.main-wrap .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.main-wrap .text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text .momo-name{
+    font-size: 30px;
+    margin: 1% 40px;
+    font-weight: 500;
+    color: #333;
+}
+
+.text .momo-price{
+    font-size: 25px;
+   margin: 2% 40px;
+   color:  #d3b951;
+}
+
+.text .momo-warning{
+    font-size: 15px;
+    margin: 1% 70px;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+.text .momo-quantity{
+    font-size: 15px;
+    margin: 2% 40px;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+.dot {
+    height: 5px;
+    width: 5px;
+    background-color: #333;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.text .momo-quantity select{
+    margin: 0px 10px;
+    border: 1px solid #333;
+    background-color: #fff;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.text .info{
+    width: 90%;
+    height: 25%;
+    border-top:1px solid rgba(0,0,0,.085);
+    border-bottom: 1px solid rgba(0,0,0,.085);
+    margin: 2% 40px;
+    display: flex;
+}
+
+.text .info .left{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.left span{
+    color: #333;
+    font-weight: 300;
+}
+.right span{
+    color: #333;
+    font-weight: 300;
+}
+.text .info .right{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.text .button{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text .button button{
+    width: 50%;
+    height: 80%;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background-color: #d3b951;
+    border: 1px solid #d3b951;
+}
+.coupon-box{
+    width: 90%;
+    height: 100px;
+    margin: 2% auto;
+    display: flex;
+
+}
+.coupon-box .box{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.box input{
+    font-size: 15px;
+   padding: 0px 10px;
+   height: 40%;
+   margin-left: 5%;
+}
+.box button{
+    font-size: 15px;
+    height: 40%;
+    width: 30%;
+    color: #fff;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {}
+
+@media (min-width: 320px) and (max-width: 480px) {}

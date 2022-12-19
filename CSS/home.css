@@ -1,0 +1,128 @@
+
+.land-main{
+    display: block;
+    width: 100%;
+    height: 90vh;
+}
+
+.land-main .heading{
+    width: 98%;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.land-main .heading img{
+    width: 100%;
+    height: 100%;
+}
+.heading .box{
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+  
+}
+.heading .box span{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    text-align: right;
+   
+}
+
+.banner-1{
+    display: flex;
+    width: 95%;
+    height: 350px;
+    margin: 2% auto;
+}
+.banner-1 img{
+    width: 100%;
+    height: 100%;
+}
+.banner-2{
+    display: flex;
+    width: 95%;
+    height: 600px;
+    margin: 2% auto;
+    justify-content: space-around;
+}
+.banner-2 a{
+    width: 36%;
+    height: 100%;
+}
+.banner-2 a img{
+    width: 100%;
+    height: 100%;
+}
+
+.banner-3{
+    width: 95%;
+    height: 350px;
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-3 a{
+    width: 20%;
+    height: 100%;
+    overflow: hidden;    
+}
+.banner-3 a:hover img{
+    transform: scale(1.05);
+    transform-origin: 50% 50%;
+}
+.banner-3 a img{
+    width: 100%;
+    height: 100%;
+    transition: transform .4s;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .land-main{
+        width: 100%;
+        height: 40vh;
+        background-image: url("../MEDIA/rajat-sarki-tpsNStmqA6c-unsplash.jpg");
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .heading .box span{
+        font-size: 30px;
+        color: #fff;
+        font-weight: 700;
+        text-align: right;
+       
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .land-main{
+        width: 100%;
+        height: 60vh;
+        background-image: url("../MEDIA/rajat-sarki-tpsNStmqA6c-unsplash.jpg");
+        background-position: center;
+        background-size: cover;
+        background-attachment:local;
+    }
+    .heading .box span{
+        font-size: 25px;
+        color: #fff;
+        font-weight: 700;
+        text-align: right;
+       
+    }
+    .heading .box{
+        width: 100%;
+        height: 100%; 
+        display: flex;
+        align-items:flex-end;
+        justify-content: flex-start;
+      
+    }
+   
+}
